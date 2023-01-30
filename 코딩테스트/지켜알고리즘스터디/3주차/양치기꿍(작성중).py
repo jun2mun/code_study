@@ -10,8 +10,6 @@ def DFS(idx,idy,sheep,wolf):
                 DFS(idx+x,idy+y,sheep+1,wolf)
             elif graph[idx+x][idy+y] == '.':
                 DFS(idx+x,idy+y,sheep,wolf)
-        
-
 
 if __name__ == '__main__':
     R, C = map(int,input().split())
