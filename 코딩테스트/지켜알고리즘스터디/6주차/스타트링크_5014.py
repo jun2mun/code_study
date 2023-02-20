@@ -14,7 +14,7 @@ def bfs(start,end,F):
                 visited[i] = True
                 queue.append([i,cnt+1])
         
-    return 'use the stairs'
+    return 'use the stairs' # 갈수 없을 경우
 
 if __name__ == '__main__':
     F,S,G,U,D = map(int,input().split())
