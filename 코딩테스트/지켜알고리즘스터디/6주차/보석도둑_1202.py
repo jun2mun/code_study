@@ -6,7 +6,7 @@ if __name__ == '__main__':
     diamonds = [] # 무게 / 가격
     bags = []
     for _ in range(N):
-        heapq.heappush(diamonds,list(map(int,input().split()))) # ( min heap)
+        heapq.heappush(diamonds,list(map(int,input().split()))) # ( min heap )
     for _ in range(K):
         bags += [int(input())]
     bags.sort() # 가방은 작은 순서대로 정렬(오름차순)
